@@ -1,0 +1,9 @@
+Normalization
+The database schema is already in a normalized form up to at least the third normal form (3NF), 
+as each table contains data related to a single entity, and there are no transitive dependencies.
+
+Here is a quick check:
+
+1NF: All tables have atomic values, unique rows, and a primary key.
+2NF: All non-key attributes are fully functional dependent on the primary key (no partial dependency).
+3NF: All non-key attributes are non-transitively dependent on the primary key (no transitive dependency).
